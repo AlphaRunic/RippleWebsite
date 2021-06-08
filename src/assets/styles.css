@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -5,7 +9,7 @@ html, body {
 }
 
 body {
-    background: #212121;
+    background: #252525
 }
 
 h1 {
@@ -16,9 +20,16 @@ h1 {
 }
 
 h2 {
-    margin: 20px;
+    margin: 25px;
     font-weight: 500;
     font-size: 20pt;
+    text-align: center;
+}
+
+h3 {
+    margin: 30px;
+    font-weight: 500;
+    font-size: 16pt;
     text-align: center;
 }
 
@@ -54,4 +65,17 @@ hr {
     border: 2px solid #7c7c7c;
     border-radius: 5px;
     width: 90%;
+    margin-bottom: 50px;
+}
+
+ul {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+.header {
+    background: #1f1f1f;
+    border: #0e0e0e;
+    border-radius: 100px;
 }
