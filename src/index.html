@@ -8,40 +8,77 @@
     </head>
     <body>
         <div class="header" title="Ripple">
-            <h1>Ripple</h1>
+            <h1>Ripple™️</h1>
             <h2>An all-purpose Discord bot built with TypeScript.</h2>
             <hr>
         </div>
-        <h3>Overview</h3>
-        <ul>
-            <li>
-                <a href="#about">About</a>
-                <ul>
-                    <li>
-                        <a href="#author">Author</a>
-                    </li>
-                    <li>
-                        <a href="#why">Why make Ripple?</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#features">Features</a>
-                <ul>
-                    <li>
-                        <a href="#customization">Customization</a>
-                    </li>
-                    <li>
-                        <a href="#quoted-args">Quoted Arguments</a>
-                    </li>
-                    <li>
-                        <a href="#type-coercion">Type Coercion</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#installation">Installation</a>
-            </li>
-        </ul>
+        <div class="overview" title="Overview">
+            <h2>Overview</h2>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                    <ul>
+                        <li>
+                            <a href="#author">Author</a>
+                        </li>
+                        <li>
+                            <a href="#why">Why make Ripple?</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#features">Features</a>
+                    <ul>
+                        <li>
+                            <a href="#customization">Customization</a>
+                        </li>
+                        <li>
+                            <a href="#quoted-args">Quoted Arguments</a>
+                        </li>
+                        <li>
+                            <a href="#type-coercion">Type Coercion</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#installation">Installation</a>
+                </li>
+                <li>
+                    <a href="#using-source">Using Source Code</a>
+                </li>
+            </ul>
+            <hr style="margin-top: 50px;">
+        </div>
+        <br>
+        <div class="about" id="about" title="About">
+            <h2>About</h2>
+            <p>
+                Ripple is an open-source all-purpose Discord bot built with TypeScript. Ripple’s source code also may serve as a framework to your own Discord bot! See <a href="#using-source">Using Source Code</a> for more info.
+                If you liked this repository, please <a href="https://github.com/AlphaRunic/Ripple">leave a star ⭐</a> to help promote Ripple!
+            </p>
+            <h4 id="author">Author</h4>
+            <p>Ripple was developed by 
+                <a href="https://github.com/AlphaRunic">AlphaRunic</a>. Command inspirations and ideas are often outsourced.
+            </p>
+            <h4 id="why">Why Was Ripple Created?</h4>
+            <p>Ripple was created because I felt Discord lacked a consistent all-purpose bot (that's actually all-purpose). Obviously there's no scarcity of all-purpose bots in Discord, but another flawless TypeScript bot just completes the picture.</p>
+        </div>
+        <div class="features" id="features" title="Features">
+            <h2>Features</h2>
+            <p>Ripple is a lightweight, yet command-heavy bot. It has 100+ commands, and growing.</p>
+            <div class="nest">
+                <h4 id="customization">Customization</h4>
+                <p>Ripple has a plethora of commands to help personalize your server to the maximum. These commands include utility to set a custom welcome message, an automatic role to be applied upon a user joining, bot prefix, chat revive, level system, and more!</p>
+                <h4 id="quoted-args">Quoted Arguments</h4>
+                <p>Ripple supports a system called quoted arguments. This means that if you pass an argument to a command, and that argument is a string, you can surround it in quotation marks to treat space-delimited text as one argument.</p>
+                <h4 id="type-coercion">Type Coercion</h4>
+                <p>Ripple command arguments have a function called type coercion. The purpose of this function is to coerce an argument (which is originally a string) to a different type. For example, in the command
+                    <br>
+                    <code>
+                        ::urban "pog champ" 5
+                    </code>, the value "5" is being used to denote what page Urban Dictionary should search. When you input the number 5 into Discord, it's automatically a string (plain text), but Ripple coerces it's type to a number, because the resultNumber argument is defined as a number in the Urban command.
+                </p>
+            </div>
+        </div>
     </body>
 </html>

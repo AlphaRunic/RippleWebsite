@@ -5,11 +5,11 @@
 html, body {
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #bebebe
+    color: #bebebe;
 }
 
 body {
-    background: #252525
+    background: #252525;
 }
 
 h1 {
@@ -24,12 +24,21 @@ h2 {
     font-weight: 500;
     font-size: 20pt;
     text-align: center;
+    margin-top: 100px;
 }
 
 h3 {
     margin: 30px;
     font-weight: 500;
     font-size: 16pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    margin: 25px;
+    font-weight: 500;
+    font-size: 13pt;
     text-align: center;
 }
 
@@ -39,6 +48,11 @@ h3,
 h4,
 h5 {
     text-shadow: 1px 2px 2px #1a1a1a;
+}
+
+p {
+    text-align: center;
+    margin-inline: 250px;
 }
 
 a {
@@ -65,17 +79,17 @@ hr {
     border: 2px solid #7c7c7c;
     border-radius: 5px;
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: -50px;
 }
 
 ul {
     text-align: center;
     display: table;
     margin: 0 auto;
+    padding-inline: 15px;
 }
 
 .header {
-    background: #1f1f1f;
-    border: #0e0e0e;
-    border-radius: 100px;
+    padding-inline: 40px;
+    padding-top: 10px;
 }
