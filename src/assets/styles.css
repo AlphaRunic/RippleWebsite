@@ -1,0 +1,57 @@
+html, body {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #bebebe
+}
+
+body {
+    background: #212121;
+}
+
+h1 {
+    margin: 25px;
+    font-weight: 700;
+    font-size: 50pt;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    font-weight: 500;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-shadow: 1px 2px 2px #1a1a1a;
+}
+
+a {
+    color: #638ac7;
+    -webkit-transition: color 0.6s;
+    transition: color 0.6s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #214c91;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
+    background: #404040;
+    color: #fff;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+hr {
+    border: 2px solid #7c7c7c;
+    border-radius: 5px;
+    width: 90%;
+}
