@@ -25,6 +25,7 @@ h2 {
     font-size: 20pt;
     text-align: center;
     margin-top: 100px;
+    padding-right: 50px;
 }
 
 h3 {
@@ -40,6 +41,7 @@ h4 {
     font-weight: 500;
     font-size: 13pt;
     text-align: center;
+    padding-right: 50px;
 }
 
 h1,
@@ -53,6 +55,7 @@ h5 {
 p {
     text-align: center;
     margin-inline: 250px;
+    padding-right: 50px;
 }
 
 a {
@@ -60,6 +63,7 @@ a {
     -webkit-transition: color 0.6s;
     transition: color 0.6s;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover {
@@ -83,13 +87,24 @@ hr {
 }
 
 ul {
-    text-align: center;
+    text-align: left;
     display: table;
     margin: 0 auto;
     padding-inline: 15px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .header {
-    padding-inline: 40px;
+    padding-inline: 50px;
     padding-top: 10px;
+}
+
+.nest {
+    margin-inline: 200px; 
 }

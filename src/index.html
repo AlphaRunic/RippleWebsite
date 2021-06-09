@@ -11,60 +11,87 @@
     </head>
     <body>
         <div class="header" title="Ripple">
+            <a href="https://github.com/AlphaRunic/Ripple">
+                <img src="assets/favicon.jpg" alt="Ripple logo" class="center" width="450" height="300">
+            </a>
             <h1>Ripple™️</h1>
             <h2>An all-purpose Discord bot built with TypeScript.</h2>
             <hr>
         </div>
         <div class="overview" title="Overview">
             <h2>Overview</h2>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                    <ul>
-                        <li>
-                            <a href="#author">Author</a>
-                        </li>
-                        <li>
-                            <a href="#why">Why make Ripple?</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#features">Features</a>
-                    <ul>
-                        <li>
-                            <a href="#customization">Customization</a>
-                        </li>
-                        <li>
-                            <a href="#quoted-args">Quoted Arguments</a>
-                        </li>
-                        <li>
-                            <a href="#type-coercion">Type Coercion</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#installation">Installation</a>
-                </li>
-                <li>
-                    <a href="#using-source">Using Source Code</a>
-                </li>
-            </ul>
+            <div class="nest">
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                        <ul>
+                            <li>
+                                <a href="#author">Author</a>
+                            </li>
+                            <li>
+                                <a href="#why">Why make Ripple?</a>
+                            </li>
+                            <li>
+                                <a href="#extra">Extra</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                        <ul>
+                            <li>
+                                <a href="#customization">Customization</a>
+                            </li>
+                            <li>
+                                <a href="#quoted-args">Quoted Arguments</a>
+                            </li>
+                            <li>
+                                <a href="#type-coercion">Type Coercion</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#installation">Installation</a>
+                    </li>
+                    <li>
+                        <a href="#using-source">Using Source Code</a>
+                    </li>
+                    <li>
+                        <a href="#issues">Issues</a>
+                    </li>
+                </ul>
+            </div>
             <hr style="margin-top: 50px;">
         </div>
         <br>
         <div class="about" id="about" title="About">
             <h2>About</h2>
             <p>
-                Ripple is an open-source all-purpose Discord bot built with TypeScript. Ripple’s source code also may serve as a framework to your own Discord bot! See <a href="#using-source">Using Source Code</a> for more info.
+                Ripple is an open-source all-purpose Discord bot built with TypeScript. Ripple’s source code also may serve as a framework to your own Discord bot (see <a href="#using-source">Using Source Code</a> for more info).
                 If you liked this repository, please <a href="https://github.com/AlphaRunic/Ripple">leave a star ⭐</a> to help promote Ripple!
             </p>
-            <h4 id="author">Author</h4>
-            <p>Ripple was developed by 
-                <a href="https://github.com/AlphaRunic">AlphaRunic</a>. Command inspirations and ideas are often outsourced.
+            <div class="nest">
+                <h4 id="author">Author</h4>
+                <p>Ripple was developed by <a href="https://github.com/AlphaRunic">AlphaRunic</a>. Command inspirations and ideas are often outsourced.</p>
+                <h4 id="why">Why Was Ripple Created?</h4>
+                <p>Ripple was created because I felt Discord lacked a consistent all-purpose bot (that's actually all-purpose). Obviously there's no scarcity of all-purpose bots in Discord, but another flawless TypeScript bot just completes the picture.</p>
+                <h4 id="extra">Extra</h4>
+                <p>There is a support/hangout Discord server for Ripple which I am in. You can find that <a href="https://discord.gg/6BaUxyVfWM">here</a>. Ripple was partially funded by <a href="http://discord.gg/apollocult">Apollo Cult</a>, a server on Discord. Join if you would like to support them too.</p>
+            </div>
+        </div>
+        <div class="installation" id="installation" title="Installation">
+            <h2>Installation</h2>
+            <p>
+                Ripple can be added to your server in just a few seconds!
+                Just click this link: <a href="https://bit.ly/2SjjB3d">Invite Me! 🔗</a>
             </p>
-            <h4 id="why">Why Was Ripple Created?</h4>
-            <p>Ripple was created because I felt Discord lacked a consistent all-purpose bot (that's actually all-purpose). Obviously there's no scarcity of all-purpose bots in Discord, but another flawless TypeScript bot just completes the picture.</p>
+        </div>
+        <div class="using-source-code" id="using-source" title="Using Source Code">
+            <h2>Using Source Code</h2>
+            <p>
+                Ripple can be cloned directly from it's repository for the latest version. To make things easier, an NPM package is provided to help install everything cleanly. In this package, a "ripple" binary is also included.
+                Install via <code>npm i ripple-discord-ts -g</code> or visit the <a href="https://www.npmjs.com/package/ripple-discord-ts">NPM package</a>.
+            </p>
         </div>
         <div class="features" id="features" title="Features">
             <h2>Features</h2>
@@ -83,5 +110,13 @@
                 </p>
             </div>
         </div>
+        <div class="issues" id="issues" title="Issues">
+            <h2>Issues</h2>
+            <p>
+                You can submit an issue pull request directly <a href="https://github.com/AlphaRunic/Ripple/issues">here</a>, or use the command <code>::bugreport "blah blah"</code> in Discord.
+            </p>
+        </div>
+        <br>
+        <hr>
     </body>
 </html>
